@@ -1,0 +1,38 @@
+version: '3'
+services:
+  node:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mysql
+      - postgres
+      - mongo
+    volumes:
+      - .:/usr/src/app
+    environment:
+      MYSQL_HOST: mysql
+      POSTGRES_HOST: postgres
+      MONGO_HOST: mongo
+
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: 
+      MYSQL_DATABASE: apidb
+    ports:
+      - "3307:3306"
+
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: apidb
+    ports:
+      - "5432:5432"
+
+  mongo:
+    image: mongo:4.4
+    ports:
+      - "27017:27017"
