@@ -10,11 +10,11 @@ Este boilerplate de API REST tem como objetivo demonstrar um CRUD nos bancos de 
 
 2. Executar no console para instalar as dependências: 
 
-    npm install
+    	npm install
 
 3. Executar o projeto com o comando:
 
-    node src/app.js
+    	node src/app.js
 
 -----------------------------------------------------------------------------------------------------------------------------
 
