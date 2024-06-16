@@ -108,6 +108,7 @@ DELETE
 Estrutura do projeto: 
 
     /NodeJS-API
+    |-- /Database Scripts // Scripts para Criar os Bancos de dados
     |-- /src
     |   |-- /config
     |   |   |-- database.js  // Configurações de banco de dados.
