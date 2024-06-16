@@ -107,7 +107,7 @@ DELETE
 
 Estrutura do projeto: 
 
-    /NodeJS-API
+    /NodeAPI-BoilerplateExample
     |-- /Database Scripts // Scripts para Criar os Bancos de dados
     |-- /src
     |   |-- /config
