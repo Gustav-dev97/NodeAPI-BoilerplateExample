@@ -1,7 +1,7 @@
 # NodeJS-API Boilerplate Example
-Um boilerplate de uma API REST utilizando NodeJS + Express:
+Um boilerplate de uma API utilizando NodeJS + Express:
 
-Este boilerplate de API REST tem como objetivo demonstrar um CRUD nos bancos de dados: MySQL, PostgreeSQL e MongoDB.
+Este boilerplate de API tem como objetivo demonstrar as operações em um bancos de dados: MySQL, PostgreeSQL e MongoDB.
 
 -----------------------------------------------------------------------------------------------------------------------------
 # Para Executar a API:
@@ -72,7 +72,7 @@ Postman ou Curl por exemplo).
 
     •Authorization > Bearer Token > Token:  <seu token>    
 
-# CRUD: 
+# Operações: 
 
 CREATE
 
